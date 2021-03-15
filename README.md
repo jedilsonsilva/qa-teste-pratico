@@ -70,20 +70,18 @@ GROUP BY P.NOME ORDER BY 2 DESC;
 
 
 **4) Na cerimônia de retrospectiva de uma dada sprint, o time pontuou
-as seguintes problemáticas:
-● Funcionalidades implementadas de forma incompleta
-● Dificuldade em realizar correções de não conformidades
-(manutenção do código).
-● Dificuldade em rastrear os erros apontados nas baterias de
-testes realizadas.
-De posse deste feedback, o ScrumMaster do projeto solicitou uma reunião
+as seguintes problemáticas:**
+**● Funcionalidades implementadas de forma incompleta**
+**● Dificuldade em realizar correções de não conformidades (manutenção do código).**
+**● Dificuldade em rastrear os erros apontados nas baterias de testes realizadas.**
+**De posse deste feedback, o ScrumMaster do projeto solicitou uma reunião
 entre o líder técnico e você para que a "Definição de Pronto" do projeto
 fosse revisada. Segue abaixo a definição citada. De acordo com sua
 experiência, o que você mudaria nela? Além disso, você acharia necessário
 provocar algum outro tipo de ação em conjunto com o time de
-desenvolvimento? Comente.
-Definição de Pronto:
-1. A funcionalidade/correção foi implementada
+desenvolvimento? Comente.**
+**Definição de Pronto:**
+**1. A funcionalidade/correção foi implementada**
 **2. A funcionalidade/correção foi testada no ambiente de QA
 3. A funcionalidade/correção está disponível em PROD****
 
