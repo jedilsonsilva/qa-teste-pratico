@@ -3,8 +3,7 @@
 Respostas do Teste Prático
 
 **1) De acordo com sua experiência, escreva os possíveis cenários de
-testes.
-**
+testes.**
 
 RESPOSTA
 
