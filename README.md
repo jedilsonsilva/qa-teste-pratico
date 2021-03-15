@@ -88,13 +88,12 @@ desenvolvimento? Comente.**
 RESPOSTA
 
 ● Funcionalidades implementadas de forma incompleta
-- Realizar a homologação da funcionalidade junto aos envolvidos, principalmente o PO do projeto;
-- Inserir a cultura de testes unitários na atividade de desenvolvimento.
-Também 
+--- Realizar a homologação da funcionalidade junto aos envolvidos, principalmente o PO do projeto;
+--- Inserir a cultura de testes unitários na atividade de desenvolvimento.
 ● Dificuldade em realizar correções de não conformidades (manutenção do código).
-- realizar a desenvolvimento em Pares, acredito que uma revisão de outro desenvolvedor pode mitigar senão todo, mas parte do problema.
+--- realizar a desenvolvimento em Pares, acredito que uma revisão de outro desenvolvedor pode mitigar senão todo, mas parte do problema.
 ● Dificuldade em rastrear os erros apontados nas baterias de testes realizadas.
-- Creio que uma melhoria no processo de testes para que o erros apontados possam ser descritos ou explicados de forma mais clara, assim permitindo que o desenvolvedor entenda o que de fato deve ser corrigido.
+--- Creio que uma melhoria no processo de testes para que o erros apontados possam ser descritos ou explicados de forma mais clara, assim permitindo que o desenvolvedor entenda o que de fato deve ser corrigido.
 
 Definição de pronto.
 
