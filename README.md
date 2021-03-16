@@ -12,33 +12,44 @@ RESPOSTA
 
 @produtosPromocao
 Feature: Mensagem
+
             Eu, como Gerente de Marketing, gostaria que fosse enviada uma mensagem
             para o cliente, participante do clube de clientes, quando pelo menos um
             dos produtos comumente consumidos por ele entrar em promoção.
 
 @formatoMensagem
 Scenario: Validar o formato da mensagem
+
             Given que é enviada a mensagem de aviso de promoção ao cliente
             And O sistema apresenta a mensagem para o cliente
             Then o formato da mensagem é "Olá <nome do cliente>, os seguintes produtos que você costuma consumir estão em promoção! Vem conferir: - <Nome do produto>: <De> por <preço da promoção>"
+            
 
 @envioMensagem
+
 Scenario: A mensagem só deve ser enviada para o cliente se o produto que entrar
           em promoção for de consumo do mesmo e o cliente não efetuou sua
           compra nos últimos 5 dias.
+          
             Given que o produto em promoção é de consumo do cliente
             And o cliente não efetuou sua compra nos últimos 5 dias
             Then a mensagem é enviada para o cliente
+            
 
 @quantidadeProdutoMensagens
+
 Scenario: A mensagem deve conter no máximo 3 produtos de consumo contínuo do
           cliente, sendo estes sempre os mais relevantes para o mesmo.
+          
             Given que a mensagem é enviada para o cliente
             And deve ser enviada sempre promoção dos produtos mais relevantes para o cliente
             Then a mensagem contém no máximo 3 produtos
+            
 
 @salvaguardarMensagem
+
 Scenario: O sistema deverá salvaguardar a informação de que a mensagem foi enviada para o cliente.
+
             Given que o cliente tem promoções disponíveis
             And a mensagem é enviada para o cliente
             Then o sistema salva a informação que a mensagem foi enviada
